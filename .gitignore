@@ -22,3 +22,4 @@
 
 .idea
 .secret
+/config/database.yml
