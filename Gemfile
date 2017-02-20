@@ -3,9 +3,9 @@ ruby '2.4.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '5.0.1'
+gem 'pg', '0.19.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
   gem 'rspec-rails', '3.5.2'
 end
 
@@ -27,6 +27,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.19.0'
-  gem 'rails_12factor', '0.0.3'
+  gem 'rails_12factor', '0.0.2'
 end
